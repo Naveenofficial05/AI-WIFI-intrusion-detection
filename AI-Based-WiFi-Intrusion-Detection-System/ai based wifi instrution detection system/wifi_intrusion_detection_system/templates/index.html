@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI-Based Wi-Fi Intrusion Detection System</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+<header><div><div class="eyebrow">WIRELESS SECURITY MONITOR</div><h1>AI-Based Wi-Fi Intrusion Detection System</h1><p>Real-time network monitoring and rule-based AI security analysis</p></div><div id="liveBadge" class="badge">STARTING</div></header>
+<section class="cards" id="cards"></section>
+<section class="grid two">
+<div class="panel"><div class="panel-title"><span>Live Traffic</span><span id="lastUpdated">Waiting...</span></div><canvas id="trafficChart"></canvas></div>
+<div class="panel"><div class="panel-title">AI Security Analysis</div><div id="securityBox" class="security normal"><strong id="securityLevel">NORMAL</strong><span id="securityText">Waiting for first analysis...</span></div><div class="stats" id="aiStats"></div></div>
+</section>
+<section class="panel"><div class="panel-title">Security Alerts</div><div class="table-wrap"><table><thead><tr><th>Time</th><th>Type</th><th>Device</th><th>Severity</th><th>Reason</th></tr></thead><tbody id="alerts"></tbody></table></div></section>
+<section class="grid two">
+<div class="panel"><div class="panel-title">Connected Local Devices</div><div class="table-wrap"><table><thead><tr><th>IP Address</th><th>Status</th><th>Device Name</th><th>MAC</th></tr></thead><tbody id="devices"></tbody></table></div></div>
+<div class="panel"><div class="panel-title">Monitoring Information</div><div id="info" class="info"></div></div>
+</section>
+<footer>Detection engine: AI rule/expert system • No machine learning • Local dashboard at 127.0.0.1:5000</footer>
+</div>
+<script src="/static/app.js"></script>
+</body></html>

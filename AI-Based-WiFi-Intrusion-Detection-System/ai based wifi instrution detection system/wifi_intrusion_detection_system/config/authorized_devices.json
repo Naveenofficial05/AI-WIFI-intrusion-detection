@@ -1,0 +1,19 @@
+{
+  "authorized_devices": [
+    {
+      "mac_address": "00:11:22:33:44:55",
+      "ip_address": "192.168.1.10",
+      "device_name": "Laptop-Admin"
+    },
+    {
+      "mac_address": "AA:BB:CC:DD:EE:FF",
+      "ip_address": "192.168.1.11",
+      "device_name": "Desktop-Office"
+    },
+    {
+      "mac_address": "11:22:33:44:55:66",
+      "ip_address": "192.168.1.12",
+      "device_name": "Smartphone-User1"
+    }
+  ]
+}

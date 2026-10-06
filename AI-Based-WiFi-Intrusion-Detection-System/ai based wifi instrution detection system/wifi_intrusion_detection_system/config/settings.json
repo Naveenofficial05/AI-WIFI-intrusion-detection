@@ -1,0 +1,11 @@
+{
+  "network_interface": "Wi-Fi",
+  "monitoring_interval": 5,
+  "traffic_threshold": 1000000,
+  "dos_threshold": 10000000,
+  "port_scan_threshold": 10,
+  "connection_attempt_threshold": 20,
+  "failed_connection_threshold": 5,
+  "time_window_seconds": 60,
+  "log_level": "INFO"
+}
